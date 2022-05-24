@@ -179,7 +179,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <sectionHeader>
+    <SectionHeader>
       <Container>
         <SectionHeader
           slogan="our team"
@@ -198,7 +198,7 @@ export default function TeamSection() {
           ))}
         </Grid>
       </Container>
-    </sectionHeader>
+    </SectionHeader>
   );
 }
 
